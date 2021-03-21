@@ -1,0 +1,134 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:48:13.351Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - karma > log4js > mailgun-js > proxy-agent > https-proxy-agent:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2021-03-21T20:48:13.351Z'
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - conventional-changelog-cli > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > combine-lists > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - conventional-changelog-cli > conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > hipchat-notifier > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-generator > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-cjs-system-wrapper > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-es2015-modules-systemjs > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-global-system-wrapper > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - conventional-changelog-cli > conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - conventional-changelog-cli > conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > mailgun-js > async > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - karma > log4js > slack-node > requestretry > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-cjs-system-wrapper > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-global-system-wrapper > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-es2015-modules-systemjs > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-cjs-system-wrapper > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-global-system-wrapper > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-cjs-system-wrapper > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-plugin-transform-global-system-wrapper > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+    - systemjs-builder > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-03-21T20:48:13.351Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-03-21T20:48:13.351Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-03-21T20:48:13.351Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-03-21T20:48:13.351Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2021-03-21T20:48:13.351Z'
