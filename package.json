@@ -48,7 +48,7 @@
     "inquirer": "^6.2.2",
     "inquirer-autocomplete-prompt": "^1.0.1",
     "rxjs": "^6.0.0",
-    "ws": "^3.3.2",
+    "ws": "^7.4.6",
     "xhr2": "^0.1.4",
     "zone.js": "^0.8.0 || ^0.9.0"
   },
@@ -76,7 +76,7 @@
     "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
     "json": "^9.0.3",
-    "karma": "^2.0.0",
+    "karma": "^5.0.8",
     "karma-chrome-launcher": "^2.2.0",
     "karma-firefox-launcher": "^1.1.0",
     "karma-jasmine": "^0.3.6",
