@@ -94,7 +94,7 @@
     "schematics-utilities": "^1.1.1",
     "shelljs": "^0.8.0",
     "systemjs": "^0.19.16",
-    "systemjs-builder": "^0.15.7",
+    "systemjs-builder": "^0.16.14",
     "traceur": "0.0.96",
     "typescript": ">=3.4.0 <3.5.0"
   },
