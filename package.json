@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@angular/animations": ">=6.0.0 <9 || ^9.0.0-0",
-    "@angular/compiler-cli": ">=6.0.0 <9 || ^9.0.0-0",
+    "@angular/compiler-cli": ">=8.1.2",
     "@angular/platform-server": ">=6.0.0 <9 || ^9.0.0-0",
     "@types/inquirer": "^0.0.44",
     "@types/jasmine": "^2.5.36",
@@ -73,7 +73,7 @@
     "gulp-typescript": "^2.10.0",
     "gzip-size": "^4.0.0",
     "http-server": "^0.8.5",
-    "jasmine": "^2.4.1",
+    "jasmine": "^3.6.0",
     "jasmine-core": "^2.4.1",
     "json": "^9.0.3",
     "karma": "^2.0.0",
